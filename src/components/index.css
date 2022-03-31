@@ -1,0 +1,55 @@
+.user-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  margin-right: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.time {
+  color: #64748b;
+  font-size: 12px;
+  font-family: 'Roboto';
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-right: 50px;
+  font-weight: 500;
+}
+.app-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+}
+.logo-img-container {
+  padding-right: 30px;
+  padding-top: 10px;
+}
+.logo-img {
+  height: 30px;
+  width: 30px;
+}
+.title {
+  color: #475569;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding-right: 10px;
+}
+.description {
+  color: #64748b;
+  font-size: 11px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.delete-icon-container {
+  padding: 2px;
+}
+.delete-icon {
+  height: 18px;
+  width: 18px;
+}
